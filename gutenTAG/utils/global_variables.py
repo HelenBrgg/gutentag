@@ -25,6 +25,7 @@ class BASE_OSCILLATION_NAMES:
     SQUARE = "square"
     SAWTOOTH = "sawtooth"
     DIRICHLET = "dirichlet"
+    CUSTOM_INPUT = "custom-input"
 
 
 class ANOMALY_TYPE_NAMES:
@@ -71,6 +72,10 @@ class PARAMETERS:
     WIDTH = "width"
     PERIODICITY = "periodicity"
     COMPLEXITY = "complexity"
+    INPUT_TIMESERIES_PATH_TRAIN = "input-timeseries-path-train"
+    INPUT_TIMESERIES_PATH_TEST = "input-timeseries-path-test"
+    USE_COLUMN_TRAIN = "use-column-train"
+    USE_COLUMN_TEST = "use-column-test"
 
 
 class CONFIG_SCHEMA:
